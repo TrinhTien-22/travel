@@ -85,21 +85,21 @@ function Footer() {
              treeData={[
                {
                  title: '3day',
-                 value: 'light',
+                 value: '3day',
                  children: [
                    {
                      title: 'combo3',
-                     value: 'bamboo',
+                     value: 'combo3',
                    },
                  ],
                },
                {
                 title: '6day',
-                value: 'light',
+                value: '6day',
                 children: [
                   {
                     title: 'combo6',
-                    value: 'bamboo',
+                    value: 'combo6',
                   },
                 ],
               },
@@ -126,7 +126,7 @@ function Footer() {
                  ],
                },
                {
-                value: 'Hà Nội',
+                value: 'Hưng Yên',
                 label: 'Hưng Yên',
                 children: [
                   {

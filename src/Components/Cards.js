@@ -1,9 +1,6 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import { Card } from "antd";
-
-const { Meta } = Card;
 
 function Cards() {
   return (
@@ -45,17 +42,7 @@ function Cards() {
               path="/sign-up"
             />
           </ul>
-          <Card
-            style={{ width: 240, overflow: "hidden" }}
-            className="cards__item"
-            cover={
-              <img
-                className="cards__item__img"
-                alt="example"
-                src="images/img-9.jpg"
-              />
-            }
-          ></Card>
+          
         </div>
       </div>
     </div>
